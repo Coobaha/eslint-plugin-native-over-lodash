@@ -5,7 +5,7 @@ const kebabCase = require('kebab-case');
 const ruleTester = new RuleTester({
     parser: 'babel-eslint'
 });
-const rule = rule => rules[`lodash/${kebabCase(rule)}`];
+const rule = rule => rules[`${kebabCase(rule)}`];
 
 ruleTester.run('concat', rule('concat'), {
   valid: [

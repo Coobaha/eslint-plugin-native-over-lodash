@@ -26,7 +26,7 @@
   "size": "Consider using the native Array.prototype.length",
   "some": "Consider using the native Array.prototype.some()",
   "any": "Consider using the native Array.prototype.some()",
-  "isNaN": "Consider using the native isNaN() or ES6 Number.isNaN()",
+  "isNan": "Consider using the native isNaN() or ES6 Number.isNaN()",
   "extendOwn": "Consider using the native ES6 Object.assign()",
   "assign": "Consider using the native ES6 Object.assign()",
   "keys": "Consider using the native Object.keys()",
